@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f0f0;
+    font: 1em/150% verdana, arial, helvetica, sans-serif;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-spacing: 5px;
+    position: relative;
+    display: table;
+}
+
+.box div {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.box div:hover {
+    background-size: 100% 100%;
+    background: url("./assets/pepe.png") center center no-repeat;
+}
+
+.play {
+    width: 102px;
+    height: 102px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.play:hover{
+    background-size: 100% 100%;
+    background: url("./assets/pepe.png") center center no-repeat;
+}
+
+img {
+    max-width: 100px !important;
+}
+
+.player1{
+    background-color: red !important;
+}
+
+.player2{
+    background-color: yellow !important;
+}
+
+h1{
+    text-align: center;
+}
