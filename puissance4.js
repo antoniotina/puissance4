@@ -5,10 +5,10 @@ let player1 = prompt("Who's gonna play first?");
 let player2 = prompt("Who's gonna play second?");
 
 if (player1 === null) {
-    player1 = "IDIOT";
+    player1 = "Player 1";
 }
 if (player2 === null) {
-    player2 = "DUMBASS";
+    player2 = "Player 2";
 }
 
 let color1 = prompt("What's the color of " + player1 + "'s circles? (red, yellow, black, pink, green, grey, blue)");
